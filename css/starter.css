@@ -99,6 +99,7 @@ a.skip:focus{
   min-height: 475px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .card {
@@ -142,6 +143,7 @@ a.skip:focus{
   padding-bottom: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .gallery img {
