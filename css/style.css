@@ -21,7 +21,7 @@ header #logo{
   width: auto;
 }
 
-@keyframes logo {
+@keyframes fades {
   from{ opacity: 0; }
   to { opacity: 1; }
   
@@ -81,7 +81,8 @@ header #logo{
 
   };
 
-
-  @media (prefers-reduced-motion : reduce) {
-    
+  @media (prefers-reduced-motion) {
+    header #logo{
+      animation: none;
+    }
   }
